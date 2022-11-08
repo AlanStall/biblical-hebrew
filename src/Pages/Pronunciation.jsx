@@ -95,8 +95,8 @@ export function Pronunciation() {
     {hebrew: 'המשיח', romanization: "HAMASHIAH", portugueseBR: "CRISTO", englishUS: "CHRIST", audio: HAMASHIAHogg},
     {hebrew: 'משיח', romanization: "MESHIAH", portugueseBR: "MESSIAS", englishUS: "MESSIAH", audio: MESHIAHogg},
     {hebrew: 'שר שלום', romanization: "SAR SHALOM", portugueseBR: "O PRÍNCIPE DA PAZ", englishUS: "THE PRINCE OF PEACE", audio: SAR_SHALOMogg},
-    {hebrew: 'הללויה', romanization: "HAL'LUYÁH", portugueseBR: "ALELUIA (DEUS SEJA LOUVADO)", englishUS: "HALLELUJAH", audio: HALLUYÁHogg},
-    {hebrew: 'שלום', romanization: "SHALOM", portugueseBR: "OLÁ // PAZ", englishUS: "HELLO", audio: SHALOMogg},
+    {hebrew: 'הללויה', romanization: "HAL'LUYÁH", portugueseBR: "ALELUIA (DEUS SEJA LOUVADO)", englishUS: "HALLELUJAH (GOD BE PRAISED)", audio: HALLUYÁHogg},
+    {hebrew: 'שלום', romanization: "SHALOM", portugueseBR: "OLÁ // PAZ", englishUS: "HELLO // PEACE", audio: SHALOMogg},
     {hebrew: 'שלום עליכם', romanization: "SHALOM ALEICHEM", portugueseBR: "A PAZ ESTEJA CONVOSCO (SAUDAÇÃO MUITO USADA POR JESUS)", englishUS: "PEACE BE UPON YOU (GREETING OFTEN USED BY JESUS)", audio: SHALOM_ALEICHEMogg},
     {hebrew: 'אהבה', romanization: "AHAVÁ", portugueseBR: "AMOR", englishUS: "LOVE", audio: AHAVAogg},
     {hebrew: 'אהיה אשר אהיה', romanization: "EHYEH AHSHER EHYEH", portugueseBR: "EU SOU O QUE SOU", englishUS: "I AM WHO I AM", audio: EHYEH_AHSHER_EHYEHogg},
@@ -120,7 +120,7 @@ export function Pronunciation() {
     {hebrew: 'לא', romanization: "LO", portugueseBR: "NÃO", englishUS: "NO", audio: LOogg},
     {hebrew: 'סליחה', romanization: "SLYHA", portugueseBR: "DESCULPE", englishUS: "SORRY", audio: SLYHAogg},
     {hebrew: 'תודה', romanization: "TODA", portugueseBR: "OBRIGADO", englishUS: "THANK YOU", audio: TODAogg},
-    {hebrew: 'תודה רבה', romanization: "TODA RABA", portugueseBR: "MUITO OBRIGADO", englishUS: "THANKS A LOT", audio: TODA_RABAogg},
+    {hebrew: 'תודה רבה', romanization: "TODA RABA", portugueseBR: "MUITO OBRIGADO", englishUS: "THANK YOU SO MUCH", audio: TODA_RABAogg},
     {hebrew: 'כנסיה', romanization: "EKKLESIA", portugueseBR: "IGREJA", englishUS: "CHURCH", audio: EKKLESIAogg},
     {hebrew: 'תפלה', romanization: "T'FILÁ", portugueseBR: "ORAÇÃO", englishUS: "PRAYER", audio: T_FILAogg},
     {hebrew: 'אינטימיות עם אלוהים', romanization: "INTIMIUT IM ELOHIM", portugueseBR: "INTIMIDADE COM DEUS", englishUS: "INTIMACY WITH GOD", audio: INTIMIUT_IM_ELOHIMogg},
@@ -145,7 +145,7 @@ export function Pronunciation() {
     {hebrew: 'גדולה', romanization: "GEDULAH", portugueseBR: "MAGNITUDE / GRANDIOSIDADE", englishUS: "GREATNESS", audio: GEDULAHogg},
     {hebrew: 'האל הגדול', romanization: "HA-EL HA GADOL", portugueseBR: "O GRANDE DEUS", englishUS: "THE GREAT GOD", audio: HA_EL_HA_GADOLogg},
     {hebrew: 'הגואל', romanization: "HA GO’EL", portugueseBR: "O REDENTOR", englishUS: "THE REDEEMER", audio: HA_GOELogg},
-    {hebrew: 'השם', romanization: "HA SHEM", portugueseBR: "O [GRANDE] NOME", englishUS: "THE BIG NAME", audio: HA_SHEMogg},
+    {hebrew: 'השם', romanization: "HA SHEM", portugueseBR: "O [GRANDE] NOME", englishUS: "THE [BIG] NAME", audio: HA_SHEMogg},
     {hebrew: 'עושה שלום', romanization: "OSE SHALOM", portugueseBR: "PACIFICADOR", englishUS: "PEACE MAKER", audio: OSE_SHALOMogg},
     {hebrew: 'שמע ישראל', romanization: "SHEMA ISRAEL", portugueseBR: "OUVE, Ó ISRAEL", englishUS: "HEAR, ISRAEL", audio: SHEMA_ISRAELogg},
     {hebrew: 'יהווה אלוהים', romanization: "YAHWEH ELOHIM", portugueseBR: "DEUS CRIADOR / SENHOR DEUS", englishUS: "CREATOR GOD", audio: YAHWEH_ELOHIMogg},
@@ -358,14 +358,14 @@ export function Pronunciation() {
             >
                 TRADUÇÃO<br></br>TRANSLATION
             </button>           
-            <button className="relative top-0 ssm:top-5 md:top-0 lg:top-6 rounded-md pointer-events-none"
+            <button className="relative top-5 ssm:top-5 md:top-0 lg:top-6 rounded-md pointer-events-none"
               style={{ animation: microphoneOn ? 'pulse 1.5s ease-out infinite' : '' , color: microphoneOn ? '#fa4b4bfb' : 'gray'}}
               aria-label="Microphone"
             >
               < MicrophoneIcon />
             </button>
             
-            <div className='mt-0 xs2:mt-2'>
+            <div className='mt-2 xs2:mt-4'>
               <h2 className='flex items-center justify-center font-bold text-[11px] xs2:text-[14px] xs:text-[18px] sm:text-[22px] xs2:py-1'>
                 <span className='pl-[5%] pr-[5%]'>< KoreanIcon /></span>
                 <span className='w-[100%] pr-[13%] pb-[5px]'>{word.hebrew}</span>
