@@ -288,15 +288,16 @@ export function Pronunciation() {
           { translateModalPortuguese && 
           <div className="modal-box text-[15px]">          
             <h3 className="font-bold text-[18px] text-[#61dbfb] tracking-[.20em]">Como funciona!</h3>
-            <div className='flex justify-center'>
+            <div className='flex justify-center text-[10px] xs:text-[12px] sm:text-[14px]'>
               <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toEnglish}><p className='p-1'>In English</p>< EnglishIcon /></button>
               <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toPortuguese}><p className='p-1'>Em Português</p>< BrazilIcon /></button>
             </div>
-            <div>
+            <div className='text-[10px] sm:text-[14px]'>
               <div className="py-1 leading-relaxed">Que tal conhecer um pouco do idioma hebraico? Aqui você pode conhecer de uma forma diferente, no contexto bíblico, com palavras e pequenas frases muito utilizadas pelo povo de Israel em toda a sua história;</div>
-              <div className="py-1 leading-relaxed">Você vai poder conhecer a palavra no alfabeto hebraico e na versão romanizada, e com as traduções em português-BR e inglês-US. Conseguirá ouvir a pronúncia, e se você acessar pelo navegador do Google Chrome no computador ou em dispositivos Android, conseguirá também pronunciar. Algumas palavras e frases são mais difíceis de pronunciar, mas não deixe de tentar;</div>
+              <div className="py-1 leading-relaxed">Você vai poder conhecer a palavra no alfabeto hebraico e na versão romanizada, e com as traduções em português-BR e em inglês-US. Conseguirá ouvir a pronúncia e também tentar pronunciar. Algumas palavras e frases são mais difíceis de pronunciar, mas não deixe de tentar;</div>
+              <div className="py-1 leading-relaxed">Em dispositivos IOS (Iphones), o usuário conseguirá acessar as palavras e frases em hebraico e as traduções em português e inglês, mas por enquanto não conseguirá ouvir a pronúncia e nem praticá-las;</div>
               <div className="py-1 leading-relaxed">Ao acessar, permita/autorize a ativação do seu microfone;</div>
-              <div className="py-1 leading-relaxed">É exibida uma palavra em hebraico, que você pode trocar pelos botões <p className='btn btn-outline btn-xs'>PRÓXIMA PALAVRA</p> ou <p className='btn btn-outline btn-xs'>PALAVRA ANTERIOR</p> . Você pode ouvir a pronúncia pelo botão <p className='btn btn-outline btn-xs'>OUVIR</p> , tentar pronunciar pelo botão <p className='btn btn-outline btn-xs'>PRONUNCIAR</p> , e ver a tradução pelo botão <p className='btn btn-outline btn-xs'>TRADUÇÃO</p> ;</div>           
+              <div className="py-1 leading-relaxed">É exibida uma palavra em hebraico, que você pode trocar pelos botões <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>PRÓXIMA PALAVRA</p> ou <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>PALAVRA ANTERIOR</p> . Você pode ouvir a pronúncia pelo botão <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>OUVIR</p> , tentar pronunciar pelo botão <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>PRONUNCIAR</p> , e ver a tradução pelo botão <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>TRADUÇÃO</p> ;</div>           
               <div className="py-1 leading-relaxed">Que Deus te abençoe imensamente 🙏🏻 😃 </div>
               <div className="modal-action">
                 <label htmlFor="my-modal-6" className="btn">Ok!</label>
@@ -307,15 +308,16 @@ export function Pronunciation() {
           { translateModalEnglish && 
           <div className="modal-box text-[15px]">          
           <h3 className="font-bold text-[18px] text-[#61dbfb] tracking-[.20em]">How it works!</h3>
-          <div className='flex justify-center'>
+          <div className='flex justify-center text-[10px] xs:text-[12px] sm:text-[14px]'>
             <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toEnglish}><p className='p-1'>In English</p>< EnglishIcon /></button>
             <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toPortuguese}><p className='p-1'>Em Português</p>< BrazilIcon /></button>
           </div>
-          <div>
-            <div className="py-1 leading-relaxed">How about knowing a little bit of the Hebrew language? Here you can get to know it in a different way, in the biblical context, with words and small phrases often used by the people of Israel throughout its history;</div>
-            <div className="py-1 leading-relaxed">You will be able to know the word in the Hebrew alphabet and in the romanized version, and with the translations in Portuguese-BR and English-US. You will be able to hear the pronunciation, and if you access it through the Google Chrome browser on your computer or Android devices, you will also be able to pronounce it. Some words and phrases are more difficult to pronounce, but be sure to try;</div>
+          <div  className='text-[10px] sm:text-[14px]'>
+            <div className="py-1 leading-relaxed">How about knowing a little bit of the hebrew language? Here you can get to know it in a different way, in the biblical context, with words and small phrases often used by the people of Israel throughout its history;</div>
+            <div className="py-1 leading-relaxed">You will be able to know the word in the hebrew alphabet and in the romanized version, and with the translations in Portuguese-BR and English-US. You will be able to hear the pronunciation and also try to pronounce it. Some words and phrases are more difficult to pronounce, but be sure to try;</div>
+            <div className="py-1 leading-relaxed">On IOS devices (Iphones), the user will be able to access the words and phrases in hebrew and the translations in Portuguese and English, but for now he will not be able to hear the pronunciation or practice it.;</div>
             <div className="py-1 leading-relaxed">When accessing, allow/authorize the activation of your microphone;</div>
-            <div className="py-1 leading-relaxed">A Hebrew word is displayed, which you can change using the buttons <p className='btn btn-outline btn-xs'>NEXT WORD</p> or <p className='btn btn-outline btn-xs'>PREVIOUS WORD </p> . You can listen to the pronunciation by the button <p className='btn btn-outline btn-xs'>LISTEN</p> , try to pronounce by the button <p className='btn btn-outline btn-xs'>PRONOUNCE</p> , and see the translation by the button <p className='btn btn-outline btn-xs'>TRANSLATION</p> ;</div>
+            <div className="py-1 leading-relaxed">A hebrew word is displayed, which you can change using the buttons <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>NEXT WORD</p> or <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>PREVIOUS WORD </p> . You can listen to the pronunciation by the button <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>LISTEN</p> , try to pronounce by the button <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>PRONOUNCE</p> , and see the translation by the button <p className='btn btn-outline btn-xs text-[10px] sm:text-[12px]'>TRANSLATION</p> ;</div>
             <div className="py-1 leading-relaxed">May God bless you immensely 🙏🏻 😃 </div>
             <div className="modal-action">
               <label htmlFor="my-modal-6" className="btn">Ok!</label>
@@ -403,7 +405,7 @@ export function Pronunciation() {
         
         <div className="grid place-items-center py-0 xs2:pb-2 xs:pb-2 xs:text-[16px] sm:text-[18px]">
           <p className="font-bold text-[11px] mt-1 sm:text-[14px]">Conheça mais o idioma hebraico</p>
-          <p className="font-bold text-[11px] mt-1 sm:text-[14px]">Learn more about the Hebrew language</p>
+          <p className="font-bold text-[11px] mt-1 sm:text-[14px]">Learn more about the hebrew language</p>
           <a href="https://www.loecsen.com/pt/curso-hebraico" target="_blank" title="Aprendendo-coreano">
             <button
               className="btn btn-info btn-sm text-[11px] leading-3 xs2:mt-2 xs:mt-2 sm:text-[14px] sm:leading-5 sm:btn-md sm:mt-4"              
