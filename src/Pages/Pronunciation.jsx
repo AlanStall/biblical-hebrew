@@ -292,7 +292,7 @@ export function Pronunciation() {
               <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toEnglish}><p className='p-1'>In English</p>< EnglishIcon /></button>
               <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toPortuguese}><p className='p-1'>Em Português</p>< BrazilIcon /></button>
             </div>
-            <div className='text-[10px] sm:text-[14px]'>
+            <div className='text-[12px] sm:text-[14px]'>
               <div className="py-1 leading-relaxed">Que tal conhecer um pouco do idioma hebraico? Aqui você pode conhecer de uma forma diferente, no contexto bíblico, com palavras e pequenas frases muito utilizadas pelo povo de Israel em toda a sua história;</div>
               <div className="py-1 leading-relaxed">Você vai poder conhecer a palavra no alfabeto hebraico e na versão romanizada, e com as traduções em português-BR e em inglês-US. Conseguirá ouvir a pronúncia e também tentar pronunciar. Algumas palavras e frases são mais difíceis de pronunciar, mas não deixe de tentar;</div>
               <div className="py-1 leading-relaxed">Em dispositivos IOS (Iphones), o usuário conseguirá acessar as palavras e frases em hebraico e as traduções em português e inglês, mas por enquanto não conseguirá ouvir a pronúncia e nem praticá-las;</div>
@@ -312,7 +312,7 @@ export function Pronunciation() {
             <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toEnglish}><p className='p-1'>In English</p>< EnglishIcon /></button>
             <button className='btn-outline rounded-lg flex justify-center items-center mx-2' onClick={toPortuguese}><p className='p-1'>Em Português</p>< BrazilIcon /></button>
           </div>
-          <div  className='text-[10px] sm:text-[14px]'>
+          <div  className='text-[12px] sm:text-[14px]'>
             <div className="py-1 leading-relaxed">How about knowing a little bit of the hebrew language? Here you can get to know it in a different way, in the biblical context, with words and small phrases often used by the people of Israel throughout its history;</div>
             <div className="py-1 leading-relaxed">You will be able to know the word in the hebrew alphabet and in the romanized version, and with the translations in Portuguese-BR and English-US. You will be able to hear the pronunciation and also try to pronounce it. Some words and phrases are more difficult to pronounce, but be sure to try;</div>
             <div className="py-1 leading-relaxed">On IOS devices (Iphones), the user will be able to access the words and phrases in hebrew and the translations in Portuguese and English, but for now he will not be able to hear the pronunciation or practice it.;</div>
