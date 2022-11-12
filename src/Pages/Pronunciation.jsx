@@ -406,7 +406,7 @@ export function Pronunciation() {
         <div className="grid place-items-center py-0 xs2:pb-2 xs:pb-2 xs:text-[16px] sm:text-[18px]">
           <p className="font-bold text-[11px] mt-1 sm:text-[14px]">Conheça mais o idioma hebraico</p>
           <p className="font-bold text-[11px] mt-1 sm:text-[14px]">Learn more about the hebrew language</p>
-          <a href="https://www.loecsen.com/pt/curso-hebraico" target="_blank" title="Aprendendo-coreano">
+          <a href="https://www.loecsen.com/pt/curso-hebraico" target="_blank" title="Aprendendo-hebraico">
             <button
               className="btn btn-info btn-sm text-[11px] leading-3 xs2:mt-2 xs:mt-2 sm:text-[14px] sm:leading-5 sm:btn-md sm:mt-4"              
             >
