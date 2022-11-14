@@ -364,6 +364,12 @@ export function Pronunciation() {
             >
               < MicrophoneIcon />
             </button>
+            <button
+                className="btn btn-sm btn-outline hover:bg-white text-[#ffffff] hover:fill-[#000000] text-[10px] leading-3 mr-2 sm:btn-md sm:text-[14px] sm:leading-5"
+                onClick={() => window.location.reload(true)}
+            >
+                ATUALIZAR PÁGINA<br></br>REFRESH PAGE
+            </button>
             
             <div className='mt-2 xs2:mt-4'>
               <h2 className='flex items-center justify-center font-bold text-[11px] xs2:text-[14px] xs:text-[18px] sm:text-[22px] xs2:py-1'>
