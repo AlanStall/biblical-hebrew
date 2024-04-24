@@ -12,9 +12,6 @@ export function Footer() {
         <div className="grid grid-flow-col gap-8 text-[10px] sm:text-[12px]">            
             <a className="link link-hover hover:text-[#61dbfb]" target="_blank" href="https://github.com/AlanStall/practice-english">
             Código Fonte
-            </a>            
-            <a className="link link-hover hover:text-[#61dbfb]" target="_blank" href="/Alan_Stall-Curriculo-2022.pdf">
-            Currículo
             </a>
             <a className="link link-hover hover:text-[#61dbfb]" target="_blank" href="https://portfolio.alanstall.com/">
             Portfólio
